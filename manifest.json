@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "icon/icon.png"
+   },
+   "content_scripts": [ {
+      "css": [ "douban.css" ],
+      "js": [ "jquery191.js", "douban.js" ],
+      "matches": [ "*://*.mp4ba.com/show.php*" ]
+   }],
+   "description": "mp4ba 扩展",
+   "icons": {
+      "128": "icon/icon.png",
+      "16": "icon/icon.png",
+      "48": "icon/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "mp4ba plus",
+   "permissions": [ "*://*.mp4ba.com/*", "*://movie.douban.com/*", "*://api.douban.com/*" ],
+   "version": "0.1",
+   "web_accessible_resources": [ "img/close.png", "img/loading.gif" ]
+}

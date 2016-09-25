@@ -1,0 +1,53 @@
+#douban_container{
+  position:fixed;
+  top: 20px;
+  right: 20px;
+  background:#fff;
+  padding:10px 10px 0 10px;
+  border-radius:3px;
+  box-shadow:0px 0px 20px #8e8e8e;
+  font-size:14px;
+  line-height:1.6;
+  transition:margin .3s, opacity .3s;
+}
+
+.douban_item{
+  padding-bottom: 10px;
+  clear: both;
+  overflow: auto;
+}
+
+.douban_item_avatar{
+  float: left;
+  width: 100px;
+  height: 135px;
+}
+
+.douban_item_info{
+  padding: 5px;
+  width: 150px;
+  float: right;
+}
+
+a.douban_item_title{
+  overflow: scroll;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.douban_item_rating{
+  color: #f00;
+}
+
+#douban_close{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: block;
+  text-decoration: none;
+}
+
+#douban_close img{
+  width: 25px;
+  height: 25px;
+}
